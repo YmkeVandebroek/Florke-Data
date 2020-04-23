@@ -1,0 +1,246 @@
+main{
+  display: grid;
+  grid-gap: 5rem;
+}
+
+@media (min-width: 500px){
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  img{
+    grid-column: 1/3;
+  }
+
+  .grafiek1{
+    grid-column: 1/3;
+  }
+
+  .grafiek2{
+    grid-column: 1/3;
+  }
+
+  .grafiek3{
+    grid-column: 1/3;
+  }
+
+  .grafiek4{
+    grid-column: 1/3;
+  }
+}
+
+@media (min-width: 900px){
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  img{
+    grid-column: 1/3;
+  }
+
+  .grafiek1{
+    grid-column: 1/3;
+  }
+
+  .grafiek2{
+    grid-column: 1/2;
+  }
+
+  .grafiek3{
+    grid-column: 2/3;
+  }
+
+  .grafiek4{
+    grid-column: 1/2;
+  }
+
+  .grafiek5{
+    grid-column: 1/2;
+  }
+}
+
+@media (min-width:1200px){
+  main{
+    margin: 0rem 20%;
+  }
+}
+
+/*GRAFIEK 1......................................................................................*/
+.grafiek1 .st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+.grafiek1 .st1{fill:#95C11F;}
+.grafiek1 .st2{fill:#F9B233;}
+.grafiek1 .st3{fill:#951B81;}
+.grafiek1 .st4{fill:#36A9E1;}
+.grafiek1 .st5{fill:#E94E1B;}
+.grafiek1 .st6{fill:#29235C;}
+.grafiek1 .st7{fill:none;stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek1 .st8{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek1 .st9{fill:#FFFFFF;}
+.grafiek1 .st10{fill:none;stroke:#F49820;stroke-miterlimit:10;}
+
+.grafiek1 .st10{
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
+  animation: dash 7s 2s linear forwards, veranderKleur 7s infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes veranderKleur{
+  25%{
+    stroke: #95C11F;
+    stroke-width: 2;
+  }
+  50%{
+    stroke: #951B81;
+    stroke-width: 1;
+  }
+  75%{
+    stroke: #29235C;
+    stroke-width: 2;
+  }
+}
+
+/*GRAFIEK 2......................................................................................*/
+.grafiek2 .st0{fill:none;}
+.grafiek2 .st1{fill:none;stroke:#F9B233;stroke-miterlimit:10;}
+.grafiek2 .st2{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek2 .st3{fill:none;stroke:#29235C;stroke-miterlimit:10;}
+.grafiek2 .st4{fill:none;stroke:#95C11F;stroke-width:2;stroke-miterlimit:10;}
+.grafiek2 .st5{fill:none;stroke:#E94E1B;stroke-miterlimit:10;}
+.grafiek2 .st6{fill:none;stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek2 .st7{fill:#FFFFFF;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek2 .st8{fill:#7DBA36;}
+.grafiek2 .st9{fill:#29235C;}
+.grafiek2 .st10{fill:#36A9E1;}
+.grafiek2 .st11{fill:#E94E1B;}
+.grafiek2 .st12{fill:#FFFFFF;}
+.grafiek2 .st13{fill:#F9B233;}
+.grafiek2 .st14{fill:#951B81;}
+.grafiek2 .st15{fill:url(#Lijnen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek2 .st16{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+.grafiek2 .st17{fill:url(#SVGID_2_);stroke:#000000;stroke-miterlimit:10;}
+.grafiek2 .st18{fill:url(#Driehoeken_2);stroke:#000000;stroke-miterlimit:10;}
+.grafiek2 .st19{fill:url(#Ruiten);stroke:#000000;stroke-miterlimit:10;}
+.grafiek2 .st20{fill:url(#Bollen);stroke:#000000;stroke-miterlimit:10;}
+
+/*GRAFIEK 3......................................................................................*/
+.grafiek3 .st0{fill:none;}
+.grafiek3 .st1{fill:none;stroke:#F9B233;stroke-miterlimit:10;}
+.grafiek3 .st2{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek3 .st3{fill:none;stroke:#29235C;stroke-miterlimit:10;}
+.grafiek3 .st4{fill:none;stroke:#95C11F;stroke-width:2;stroke-miterlimit:10;}
+.grafiek3 .st5{fill:none;stroke:#E94E1B;stroke-miterlimit:10;}
+.grafiek3 .st6{fill:none;stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek3 .st7{fill:#FFFFFF;stroke:#E94E1B;stroke-miterlimit:10;}
+.grafiek3 .st8{fill:#36A9E1;}
+.grafiek3 .st9{fill:#29235C;}
+.grafiek3 .st10{fill:#951B81;}
+.grafiek3 .st11{fill:#FFFFFF;}
+.grafiek3 .st12{fill:#F9B233;}
+.grafiek3 .st13{fill:#E94E1B;}
+.grafiek3 .st14{fill:#7DBA36;}
+.grafiek3 .st15{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+.grafiek3 .st16{fill:url(#Ruiten);stroke:#000000;stroke-miterlimit:10;}
+.grafiek3 .st17{fill:url(#SVGID_2_);stroke:#000000;stroke-miterlimit:10;}
+.grafiek3 .st18{fill:url(#Lijnen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek3 .st19{fill:url(#Groen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek3 .st20{fill:url(#Bollen);stroke:#000000;stroke-miterlimit:10;}
+
+/*GRAFIEK 4*/
+.grafiek4 .st0{fill:none;}
+.grafiek4 .st1{fill:none;stroke:#F9B233;stroke-miterlimit:10;}
+.grafiek4 .st2{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek4 .st3{fill:none;stroke:#29235C;stroke-miterlimit:10;}
+.grafiek4 .st4{fill:none;stroke:#95C11F;stroke-width:2;stroke-miterlimit:10;}
+.grafiek4 .st5{fill:none;stroke:#E94E1B;stroke-miterlimit:10;}
+.grafiek4 .st6{fill:#FFFFFF;stroke:#29235C;stroke-miterlimit:10;}
+.grafiek4 .st7{fill:#951B81;}
+.grafiek4 .st8{fill:#E94E1B;}
+.grafiek4 .st9{fill:#7DBA36;}
+.grafiek4 .st10{fill:#36A9E1;}
+.grafiek4 .st11{fill:#FFFFFF;}
+.grafiek4 .st12{fill:#29235C;}
+.grafiek4 .st13{fill:#F9B233;}
+.grafiek4 .st14{fill:url(#Bollen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek4 .st15{fill:url(#Driehoeken);stroke:#000000;stroke-miterlimit:10;}
+.grafiek4 .st16{fill:url(#Lijnen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek4 .st17{fill:url(#Groen);stroke:#000000;stroke-miterlimit:10;}
+.grafiek4 .st18{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+
+/*GRAFIEK 5*/
+.grafiek5 .st0{fill:none;}
+.grafiek5 .st1{fill:none;stroke:#7DBA36;stroke-miterlimit:10;}
+.grafiek5 .st2{fill:none;stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek5 .st3{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek5 .st4{fill:#FFFFFF;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+.grafiek5 .st5{fill:#E94E1B;}
+.grafiek5 .st6{fill:#F9B233;}
+.grafiek5 .st7{fill:#951B81;}
+.grafiek5 .st8{fill:#36A9E1;}
+.grafiek5 .st9{fill:#29235C;}
+.grafiek5 .st10{fill:#FFFFFF;}
+.grafiek5 .st11{fill:#7DBA36;}
+.grafiek5 .st12{fill:url(#SVGID_1_);stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek5 .st13{fill:url(#SVGID_2_);stroke:#951B81;stroke-miterlimit:10;}
+.grafiek5 .st14{fill:url(#SVGID_3_);stroke:#7DBA36;stroke-miterlimit:10;}
+.grafiek5 .st15{fill:none;stroke:#000000;stroke-miterlimit:10;}
+
+#V {
+  stroke-dasharray: 100;
+  animation: dash2 5s linear infinite;
+}
+
+#M {
+  stroke-dasharray: 100;
+  animation: dash2 5s linear infinite;
+}
+
+#A {
+  stroke-dasharray: 100;
+  animation: dash2 5s linear infinite;
+}
+
+@keyframes dash2 {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+/*GRAFIEK 6*/
+.grafiek6 .st0{fill:none;}
+.grafiek6 .st1{fill:none;stroke:#7DBA36;stroke-miterlimit:10;}
+.grafiek6 .st2{fill:none;stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek6 .st3{fill:none;stroke:#951B81;stroke-miterlimit:10;}
+.grafiek6 .st4{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+.grafiek6 .st5{fill:#29235C;}
+.grafiek6 .st6{fill:#36A9E1;}
+.grafiek6 .st7{fill:#951B81;}
+.grafiek6 .st8{fill:#E94E1B;}
+.grafiek6 .st9{fill:#F9B233;}
+.grafiek6 .st10{fill:#7DBA36;}
+.grafiek6 .st11{fill:#FFFFFF;}
+.grafiek6 .st12{fill:url(#SVGID_1_);stroke:#36A9E1;stroke-miterlimit:10;}
+.grafiek6 .st13{fill:url(#SVGID_2_);stroke:#951B81;stroke-miterlimit:10;}
+.grafiek6 .st14{fill:url(#SVGID_3_);stroke:#7DBA36;stroke-miterlimit:10;}
+.grafiek6 .st15{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.grafiek6 .st16{clip-path:url(#SVGID_5_);}
+
+#V2 {
+  stroke-dasharray: 100;
+  animation: dash2 5s forwards infinite;
+}
+
+#M2 {
+  stroke-dasharray: 100;
+  animation: dash2 5s linear infinite;
+}
+
+#A2 {
+  stroke-dasharray: 100;
+  animation: dash2 5s backwards infinite;
+}
